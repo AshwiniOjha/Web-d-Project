@@ -1,0 +1,111 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header{
+	height:65px;
+  width:100%;
+  background-color:orange;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.headerright{
+	float:right;
+	background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+.headerright a{
+	color:white;
+	font-size:20px;
+	line-height:65px;
+	display:block;
+	padding:0 10px 0 10px;
+}
+.headerleft{
+	float:left;
+	padding-top:13px;
+	padding-left:23px;
+}
+.headerleft a{
+	color:white;
+	font-size:30px;
+}
+.center{
+	text-align: center;
+	padding-top:85px;
+	padding-bottom:70px;
+}
+.center button{
+	box-shadow:0px 5px black;
+	cursor: pointer; 
+
+}
+.center button:active{
+	box-shadow:none;
+	position:relative;
+	top:5px;
+}
+.center h1{
+	font-size:56px;
+	padding-top:60px;
+	padding-bottom:50px;
+}
+.center p{
+	padding-bottom:10px;
+	font-size:20px;
+}
+.btn{
+  opacity:0.8;
+  color:white;
+  padding:15px 24px;
+  display:inline-block;
+  border-radius:4px;
+  margin:7px 7px;
+}
+.btn:hover{
+  opacity:1;
+}
+.email{
+  background-color:#239b76;
+  
+}
+.fb{
+  background-color:#3b5998;
+}
+.btn-wrapper{
+	padding-top:30px;
+	margin:20px 0;
+}
+.btn-wrapper p{
+	color:red;
+	padding-bottom:5px;
+}
+footer{
+	border:1px #eee;
+	padding:30px 0 70px 0;
+	background-color: rgba(34,49,52,0.9);
+
+
+}
+.footer1 li{
+	color:#b3aeb5;
+	font-size:17px ;
+	padding-left:25px;
+	margin-bottom:5px;
+}
